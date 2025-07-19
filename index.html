@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Verification Component</title>
+    <meta name="description" content="Modern OTP Verification Component" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="otp-card">
+        <h2 class="title">Verify your email address</h2>
+        <p class="subtitle">We have sent you a verification code on your registered email address.</p>
+        
+        <div class="otp-container">
+          <input type="text" class="otp-input" maxlength="1" data-index="0">
+          <input type="text" class="otp-input" maxlength="1" data-index="1">
+          <input type="text" class="otp-input" maxlength="1" data-index="2">
+          <input type="text" class="otp-input" maxlength="1" data-index="3">
+        </div>
+        
+        <button class="verify-btn" id="verifyBtn">Verify OTP</button>
+        
+        <div class="message" id="message"></div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
